@@ -37,7 +37,6 @@ export const PROFILE = {
 
     socials: [
         { label: "Instagram", icon: "/assets/icons/insta.svg", url: "https://instagram.com/witchpleasure" },
-        { label: "Twitter", icon: "/assets/icons/twitter.svg", url: "https://x.com/witchpleasure" },
         { label: "TikTok", icon: "/assets/icons/tiktok.svg", url: "https://tiktok.com/@witchpleasure" },
     ] as SocialLink[],
 
