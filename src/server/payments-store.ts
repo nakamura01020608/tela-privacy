@@ -163,7 +163,7 @@ export const getPaymentStatus = async (
         return { status: "failed" };
     }
 
-    return { status: "paid", token: issueToken(payment) };
+    return { status: "pending" };
 };
 
 export const applyWebhook = async (externalId: string): Promise<boolean> => {
